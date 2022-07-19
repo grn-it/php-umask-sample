@@ -1,0 +1,10 @@
+version: "3.4"
+
+services:
+  service:
+    build:
+      context: .
+      target: service
+    volumes:
+      - .:/app
+    stop_grace_period: 0s
