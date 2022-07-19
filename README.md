@@ -1,6 +1,6 @@
 # PHP Umask Sample
 
-Umask subtracts permissions for files and directories on creation.
+Umask function subtracts permissions for files and directories on creation.
 
 Permission values:
 - **0** = --- no permission
