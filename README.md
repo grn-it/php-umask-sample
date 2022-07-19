@@ -12,6 +12,7 @@ Permission values:
 - **6** = rw- read and write
 - **7** = rwx read, write and execute
 
+Sample:
 ```php
 <?php
 
@@ -23,3 +24,4 @@ umask(0377);
 // The file will be created with permissions 0400
 fopen('test.txt', 'w');
 ```
+[Go To Sample](https://github.com/grn-it/php-umask-sample/blob/main/src/umask.php)
