@@ -1,4 +1,4 @@
-# PHP umask Sample
+# PHP Umask Sample
 
 Umask subtracts permissions for files and directories on creation.
 
